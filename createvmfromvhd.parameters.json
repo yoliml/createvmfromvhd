@@ -1,0 +1,30 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "vmName": {
+            "value": "" 
+        },
+        "osType": {
+            "value": "Windows"
+        },
+        "osDiskVhdUri": {
+            "value": "https://mystorageaccountcyml123.blob.core.windows.net/osdiksuri/yourvhdfilename12.vhd"
+        },
+        "vmSize": {
+            "value": "Standard_B1s"
+        },
+        "existingVirtualNetworkName": {
+            "value": "VNET1"
+        },
+        "existingVirtualNetworkResourceGroup": {
+            "value": "" 
+        },
+        "subnetName": {
+            "value": "SUBNET1"
+        },
+        "location": {
+            "value": "" 
+        }
+    }
+}
